@@ -1,0 +1,109 @@
+/*
+  Parrallax effect banner
+*/
+body {
+  position:relative;
+}
+
+.banner {
+  background-image: url("./RH-2.jpg");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  height: 512px;
+  position: relative;
+  overflow: hidden;
+} .container .title {
+  color: white;
+  text-align: right;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  font-size: 5rem;
+  font-family: 'Cabin', sans-serif;
+} .container .logo {
+  background-image: url('Logo.svg');
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 103px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -53px;
+}
+
+/*
+  Navigation
+*/
+
+.menu {
+  padding-top: 10px;
+  height: 80px;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 512px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+} .opts {
+  vertical-align: middle;
+  text-align: center;
+  height: 60px;
+  padding-top: 20px;
+} .opts a:link {
+  color: inherit;
+  padding: 10px;
+} .opts a:visited {
+    color: inherit;
+    text-decoration: none;
+} .opts a:hover {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px #ddddee solid;
+} .opts a:active {
+  color: inherit;
+  text-decoration: none;
+} .fix-menu .logo-sm {
+  background-image: url('logo-sm.png');
+  background-position: left;
+  background-repeat: no-repeat;
+} .fix-menu .title-sm {
+  text-align: left;
+} .fix-menu .title-sm:before{
+  content: 'Asesoría en Investigaciones y Desarrollo Humano';
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.5rem;
+}
+
+.fix-menu .menu {
+  position: fixed;
+  top: 0px;
+  background-color: white;
+}
+/*
+  Body styles
+*/
+
+.intro {
+  font-family: 'Asar', serif;
+  font-size: 3rem;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+article {
+  height: 2000px;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+}
