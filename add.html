@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Clientes</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="sys.css">
+  </head>
+  <body>
+    <nav class="menu container-fluid">
+      <div class="col-md-4 opts logo-sm"></div>
+      <div class="col-md-6 opts title-sm"></div>
+      <div class="col-md-1 opts"><a href="index.html#inicio">Inicio</a></div>
+      <div class="col-md-1 opts"><a href="login.html">Cerrar</a></div>
+    </nav>
+    <header class="container">
+      <p><i>ID - Nombre del cliente</i></p>
+    </header>
+    <section class="container" style="margin-bottom: 10px">
+      <div class="col-md-9 col-md-offset-3 form">
+        <form class="form-horizontal" action="login.html" method="post">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input class="input-name" type="text" class="form-control" id="username" placeholder=" Ingrese el nombre del candidato. Ex: [Apellido Paterno] [Apellido Materno] , [Nombre/s]">
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="container upload-control">
+      <div class="col-md-3 titles">Estudio Socioeconómico</div>
+      <div class="col-md-9 dropzone" id="dropzone">
+        <p>
+          Arrastre archivos para cargarlos o <br/><input type="file" accept=".pdf" />
+        </p>
+      </div>
+    </section>
+    <section class="container upload-control">
+      <div class="col-md-3 titles">Investigación Privada</div>
+      <div class="col-md-9 dropzone" id="dropzone">
+        <p>
+          Arrastre archivos para cargarlos o <br/><input type="file" accept=".pdf" />
+        </p>
+      </div>
+    </section>
+    <section class="container upload-control">
+      <div class="col-md-3 titles">Polígrafo y Antidopping</div>
+      <div class="col-md-9 dropzone" id="dropzone">
+        <p>
+          Arrastre archivos para cargarlos o <br/><input type="file" accept=".pdf" />
+        </p>
+      </div>
+    </section>
+    <script src="jquery.js"></script>
+    <script src="dropzone.js"></script>
+  </body>
+</html>

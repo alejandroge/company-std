@@ -1,0 +1,49 @@
+
+header {
+  margin-top: 80px;
+  font-weight: bolder;
+  font-size: 3rem;
+  font-family: 'Asar', serif;
+}
+
+.input-name {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+}
+
+table {
+  font-size: 2rem;
+}
+
+.upload-control {
+  margin-bottom: 10px;
+}
+
+.titles {
+  font-size: 1.5rem;
+  line-height: 150px;
+  text-align: center;
+}
+
+.dropzone {
+  height: 150px;
+  border: 2px dashed #ccc;
+  color: #ccc;
+  text-align: center;
+  display: flex;
+  align-items: center;
+} .dropzone p {
+  width: 100%;
+}
+
+.dropzone.dragover {
+  border-color: #000;
+  color: #000;
+}
+
+input[type="file"] {
+  display: inline-block;
+}
