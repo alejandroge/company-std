@@ -22,9 +22,9 @@
   background-repeat: no-repeat;
   position: absolute;
   left: 50%;
+  background-image: url(profile.jpg);
   margin-left: -140px;
 } .portrait #pp1 {
-  background-image: url(profile.jpg);
 } .portrait #pp2 {
   background-image: url(profile2.jpg);
 }
