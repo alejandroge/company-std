@@ -1,3 +1,49 @@
-section {
+.first-section {
   margin-top: 100px;
+}
+
+.portrait {
+  height: 280px;
+  margin-bottom: 40px;
+} .portrait .thumb p {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  margin: 0px auto;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+} .portrait .thumb {
+  overflow: hidden;
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+  background-size: 280px 280px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  margin-left: -140px;
+} .portrait #pp1 {
+  background-image: url(profile.jpg);
+} .portrait #pp2 {
+  background-image: url(profile2.jpg);
+}
+
+.subtitle {
+  font-family: 'Asar', serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+article .text {
+  font-size: 2rem;
+  text-align: center;
+}
+
+article ul {
+  padding-left: 0px;
+} article ul li {
+  display: inline-block;
+  vertical-align: middle;
+  list-style: none;
 }
