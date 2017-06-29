@@ -6,7 +6,7 @@ body {
 }
 
 .banner {
-  background-image: url("./RH-2.jpg");
+  background-image: url("../images/RH-2.jpg");
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
@@ -22,7 +22,7 @@ body {
   font-size: 5rem;
   font-family: 'Cabin', sans-serif;
 } .container .logo {
-  background-image: url('Logo.svg');
+  background-image: url('../images/Logo.svg');
   background-position: left;
   background-repeat: no-repeat;
   height: 103px;
@@ -63,13 +63,13 @@ body {
   color: inherit;
   text-decoration: none;
 } .fix-menu .logo-sm {
-  background-image: url('logo-sm.png');
+  background-image: url('../images/logo-sm.png');
   background-position: left;
   background-repeat: no-repeat;
 } .fix-menu .title-sm {
   text-align: left;
 } .fix-menu .title-sm:before{
-  content: 'Asesoría en Investigaciones y Desarrollo Humano';
+  content: 'Slogan o nombre de la compañía';
   font-family: 'Cabin', sans-serif;
   font-size: 1.5rem;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .img-1 {
-  background-image: url('Decision.jpg');
+  background-image: url('../images/Decision.jpg');
   background-size: auto 384px;
   background-position: right;
   background-repeat: no-repeat;
@@ -101,7 +101,7 @@ body {
 }
 
 .img-2 {
-  background-image: url('Decision.jpg');
+  background-image: url('../images/Decision.jpg');
   background-size: auto 384px;
   background-position: left;
   background-repeat: no-repeat;

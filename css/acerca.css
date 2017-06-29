@@ -22,11 +22,8 @@
   background-repeat: no-repeat;
   position: absolute;
   left: 50%;
-  background-image: url(profile.jpg);
+  background-image: url(../images/profile.png);
   margin-left: -140px;
-} .portrait #pp1 {
-} .portrait #pp2 {
-  background-image: url(profile2.jpg);
 }
 
 .subtitle {
